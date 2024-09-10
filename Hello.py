@@ -1,5 +1,7 @@
 import streamlit as st
-from pages.demos import plotting_demo, mapping_demo, data_frame_demo
+from pages.plotting_demo import plotting_demo  # Import from plotting_demo.py
+from pages.mapping_demo import mapping_demo  # Import from mapping_demo.py
+from pages.dataframe_demo import data_frame_demo  # Import from dataframe_demo.py
 
 def intro():
     import streamlit as st

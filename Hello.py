@@ -1,4 +1,5 @@
 import streamlit as st
+from pages.demos import plotting_demo, mapping_demo, data_frame_demo
 
 def intro():
     import streamlit as st
